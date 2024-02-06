@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+}
+tbody tr:nth-child(2n){
+    background-color: lightgray;
+
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    width: 120px;
+    
+}
+
+#flex{
+    display: flex;
+    margin: auto;
+    width: 60px;
+    flex: 1;
+}
+.fotos{
+    background-size: cover;
+    margin-right: 5px;
+    flex: 1;
+}
+#jose{
+    background-image: url("image/398269923_867443644772377_4467542696813046090_n.jpg");
+}
+#mateus{
+    background-image: url("image/347539927_1079131316380373_3121191067661723565_n.jpg");
+}
+.fotos-m{
+    background-size: cover;
+    margin-right: 2px;
+    flex: 1;
+}
+#petrus{
+    background-image: url("image/27573954_202491450329480_3772480354028355584_n.jpg");
+}
+#jv{
+    background-image: url("image/Screenshot_3.png"); 
+}
+#flex-jv{
+    display: flex;
+    margin: auto;
+    width: 80px;
+    flex: 1;
+}
+#mateus-andrade{
+    background-image: url("image/402925520_679865717350179_922925085780832038_n.jpg");
+}
+
